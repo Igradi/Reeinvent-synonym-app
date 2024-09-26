@@ -1,3 +1,4 @@
+//added most common errors for easier reusablity
 const { ApiError } = require('../utils/errorHandlers');
 
 module.exports.errors = {

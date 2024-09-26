@@ -1,3 +1,4 @@
+//using Mutex for thread-safe operations
 const { Mutex } = require('async-mutex');
 const synonymMutex = new Mutex();
 
@@ -10,6 +11,7 @@ function addPair(word1, word2) {
     synonymMap[word1].add(word2);
 }
 
+//DFS algorithm for finding all synonyms
 function findAllSynonymsIterative(word) {
     let visited = new Set();
     let stack = [word];

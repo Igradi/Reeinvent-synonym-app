@@ -1,3 +1,4 @@
+//for preventing DDOS attacks
 const Joi = require('joi');
 
 const addSynonymSchema = Joi.object({
