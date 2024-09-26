@@ -41,6 +41,7 @@ This Synonyms Tool allows users to add words with their synonyms and search for 
 ### Frontend Setup
 1. Navigate to `client/synonyms-tool-client/`.
 2. Install dependencies: `npm install`.
+3. Create a `.env` file and set up environment variables (e.g., `REACT_APP_API_URL`).
 3. Start the React client: `npm start`.
 
 
